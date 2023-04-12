@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5236814685837551670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2606718476774641721}
+  - component: {fileID: 74574930275458831}
+  m_Layer: 0
+  m_Name: OpenAi.OpenAiTextReplace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2606718476774641721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236814685837551670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &74574930275458831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236814685837551670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1057a46d69aa4791962740827d1412cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh: {fileID: 0}
+  prompt: Give me 100 sentences describing game assets I could use to generate sprites
+    or environment textures for a game
+  model: 0
+  response: "1. Crumbling stone walls \n2. Rusty metal bars \n3. Ancient ruins \n4.
+    Mossy cliff faces \n5. Fragile wooden planks \n6. Glistening snow-capped mountains
+    \n7. Creepy ancient crypts \n8. Abandoned factories \n9. Overgrown forests \n10.
+    Mysterious abandoned temples \n11. Dilapidated barns \n12. Spooky abandoned mines
+    \n13. Rugged rocky paths \n14. Gloomy foggy moors \n15. Misty marshes \n16. Grassy
+    meadows \n17. Stained glass windows \n18. Calm river banks \n19. Eerie cemeteries
+    \n20. Dark caves \n21. Rainy city streets \n22. Barren deserts \n23. Blazing
+    bonfires \n24. Misty fog-filled forests \n25. Vast oceans \n26. Sparkling waterfalls
+    \n27. Bright sunlit beaches \n28. Towering skyscrapers \n29. Weathered wooden
+    doors \n30. Glowing neon signs \n31. Ruined castles \n32. Roaring volcanoes \n33.
+    Ancient statues \n34. Grandiose fountains \n35. Shallow streams \n36. Thick jungles
+    \n37. Old bridges \n38. Dark dungeons \n39. Glittering gems \n40. Fragile eggs
+    \n41. Shiny coins \n42. Gold chests \n43. Hidden tunnels \n44. Buried treasures
+    \n45. Abandoned vehicles \n46. Broken machines \n47. Mystic runes \n48. Haunted
+    houses \n49. Floating islands \n50. Mystical portals \n51. Magical artifacts
+    \n52. Alien artifacts \n53. Dangerous traps \n54. Mystic paintings \n55. Ancient
+    scrolls \n56. Ancient tombs \n57. Creepy dolls \n58. Abandoned ships \n59. Glowing
+    crystals \n60. Giant robots \n61. Floating platforms \n62. Swinging vines \n63.
+    Whirring gears \n64. Gigantic trees \n65. Glowing plants \n66. Lush gardens \n67.
+    Spring blooms \n68. Autumn leaves \n69. Wispy clouds \n70. Glowing stars \n71.
+    Moonlit nights \n72. Shimmering sunsets \n73. Lightening storms \n74. Drizzly
+    rainstorms \n75. Sunny days \n76. Rainbows \n77. Fireworks \n78. Snowflakes \n79.
+    Rusty chains \n80. Heavy boulders \n81. Wooden chests \n82. Barricades \n83.
+    Broken walls \n84. Metal girders \n85. Shattered glass \n86. Wooden fences \n87.
+    Bricks \n88. Reinforced steel \n89. Stone slabs \n90. Giant doors \n91. Wooden
+    planks \n92. Iron bars \n93. Rusty pipes \n94. Crates \n95. Ladders \n96. Wooden
+    beams \n97. Rocky outcrops \n98. Creepy corridors \n99. Rivers of lava \n100.
+    Piles of rubble"
+  componentsInitialized: 0
